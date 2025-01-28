@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "autolever2",
+  "version": "${version}",
+  "name": "AutoLever2",
+  "description": "Place lever on water",
+  "authors": ["necek"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "necek.development.autolever2.client.MainClient"
+    ],
+    "main": [
+      "necek.development.autolever2.Main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=1.17"
+  }
+}
